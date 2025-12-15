@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+env/
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Django
+*.log
+db.sqlite3
+media/
+staticfiles/
+
+# Node
+node_modules/
+build/
+npm-debug.log*
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+
+# Environment
+.env
+.env.local
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Redis
+dump.rdb
